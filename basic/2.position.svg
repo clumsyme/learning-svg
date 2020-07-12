@@ -1,0 +1,4 @@
+<!-- 画布为 200*200，viewBox 为 100*100，把 100*100 的内容放到 200*200 的画布，等于是放大到 2 倍进行显示 -->
+<svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <rect x="50" y="50" width="100" height="100" />
+</svg>
