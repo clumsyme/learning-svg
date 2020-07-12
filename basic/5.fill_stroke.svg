@@ -1,7 +1,7 @@
 <svg width="400" height="1100" version="1.1">
     <!-- 可以使用 CSS 定义样式 -->
     <defs>
-        <style type="text/css">
+        <style type="text/css"><![CDATA[
             #MyRect {
                 stroke: black;
                 fill: #009688;
@@ -11,7 +11,7 @@
             #MyRect:hover {
                 fill: #00796b;
             }
-        ></style>
+        ]]></style>
     </defs>
     <rect x="50" height="100" y="50" width="100" id="MyRect"/>
 
