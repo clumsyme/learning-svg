@@ -1,33 +1,16 @@
-<svg width="400" height="1100" version="1.1">
-    <!-- 可以使用 CSS 定义样式 -->
-    <defs>
-        <style type="text/css"><![CDATA[
-            #MyRect {
-                stroke: black;
-                fill: #009688;
-                cursor: pointer;
-                transition: fill .25s ease-in-out;
-            }
-            #MyRect:hover {
-                fill: #00796b;
-            }
-        ]]></style>
-    </defs>
-    <rect x="50" height="100" y="50" width="100" id="MyRect"/>
-
-    <!-- 描边 -->
-    <line x1="50" y1="200" x2="350" y2="200" stroke="black" stroke-width="3" />
-    <line x1="50" y1="250" x2="350" y2="250" stroke="black" stroke-width="3" stroke-dasharray="5 10" />
-    <line x1="50" y1="300" x2="350" y2="300" stroke="black" stroke-width="3" stroke-dasharray="5 10 5" />
-    <line x1="50" y1="350" x2="350" y2="350" stroke="black" stroke-width="3" stroke-dasharray="5 10 5 10" />
-    <line x1="50" y1="400" x2="350" y2="400" stroke="black" stroke-width="3" stroke-dasharray="5 10 5 10 5" />
-
-    <polyline points="50 450 150 450 150 550" fill="transparent" stroke="black" stroke-width="30" />
-    <polyline points="200 450 300 450 300 550" fill="transparent" stroke="black" stroke-width="30" stroke-linejoin="bevel" />
-    <polyline points="50 600 150 600 150 700" fill="transparent" stroke="black" stroke-width="30" stroke-linejoin="round" />
-    <polyline points="200 600 300 600 300 700" fill="transparent" stroke="black" stroke-width="30" stroke-linejoin="miter" />
-    <polyline points="50 750 150 750 150 850" fill="transparent" stroke="black" stroke-width="30" stroke-linejoin="round" stroke-linecap="butt" />
-    <polyline points="200 750 300 750 300 850" fill="transparent" stroke="black" stroke-width="30" stroke-linejoin="round" stroke-linecap="round" />
-    <polyline points="50 900 150 900 150 1000" fill="transparent" stroke="black" stroke-width="30" stroke-linejoin="round" stroke-linecap="square" />
-    
+<svg width="400" height="1050" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <rect x="50" height="100" y="50" width="100" />
+    <!--描边-->
+    <line x1="50" y1="200" x2="350" y2="200" stroke="black" stroke-width="3"/>
+    <line x1="50" y1="250" x2="350" y2="250" stroke="black" stroke-width="3" stroke-dasharray="5 10"/>
+    <line x1="50" y1="300" x2="350" y2="300" stroke="black" stroke-width="3" stroke-dasharray="5 10 5"/>
+    <line x1="50" y1="350" x2="350" y2="350" stroke="black" stroke-width="3" stroke-dasharray="5 10 5 10"/>
+    <line x1="50" y1="400" x2="350" y2="400" stroke="black" stroke-width="3" stroke-dasharray="5 10 5 10 5"/>
+    <polyline points="50 450 150 450 150 550" fill="transparent" stroke="black" stroke-width="30"/>
+    <polyline points="200 450 300 450 300 550" fill="transparent" stroke="black" stroke-width="30" stroke-linejoin="bevel"/>
+    <polyline points="50 600 150 600 150 700" fill="transparent" stroke="black" stroke-width="30" stroke-linejoin="round"/>
+    <polyline points="200 600 300 600 300 700" fill="transparent" stroke="black" stroke-width="30" stroke-linejoin="miter"/>
+    <polyline points="50 750 150 750 150 850" fill="transparent" stroke="black" stroke-width="30" stroke-linejoin="round" stroke-linecap="butt"/>
+    <polyline points="200 750 300 750 300 850" fill="transparent" stroke="black" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="50 900 150 900 150 1000" fill="transparent" stroke="black" stroke-width="30" stroke-linejoin="round" stroke-linecap="square"/>
 </svg>
